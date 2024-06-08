@@ -72,9 +72,9 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiBaseUrl: 'https://notification-sevice-be-346895f7383c.herokuapp.com/'
+      apiBaseUrl: ''
     },
-    secretKey: 'BA9PoQIiCGtD8M9zdJvQBIJTvOKEn_qzkDYOHjmFX1eUyU4IoGpq90GgdPKsN5vPPyvhyg_OJkQwbWCAwjcJNM8'
+    secretKey: ''
   },
   modules: [
     "@nuxtjs/tailwindcss",'@pinia/nuxt','@nuxt/image'
