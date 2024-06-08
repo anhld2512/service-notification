@@ -22,6 +22,7 @@ Hướng dẫn này sẽ giúp bạn triển khai dịch vụ thông báo đẩy
 ## Yêu cầu
 - Node.js và npm được cài đặt trên hệ thống của bạn.
 - Trình quản lý gói npm.
+- Các tiến trình POST API sẽ được thưc thi qua HTTPS (HTTP hoặc localhost sẽ không action)
 
 ## Hướng dẫn Backend
 
