@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+.pnpm/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Output of 'npm init'
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+
+# dotenv environment variables file
+.env
+.env.*.local
+
+# Nuxt build and generated files
+.nuxt/
+dist/
+!static/icon.png
+!static/favicon.ico
+
+# Nuxt static and public directories
+public/
+static/
+
+# Local nuxt dev server file
+.nuxt/telemetry.lock
+
+# Ignore Nuxt generated static assets
+/static/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
